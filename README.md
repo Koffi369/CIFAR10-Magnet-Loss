@@ -6,7 +6,8 @@ PyTorch implementation of the Magnet Loss, as proposed in the "Metric Learning w
 1 - Pretrain the Inception network for three epochs on the ImageNet dataset (MiniImageNet from https://www.kaggle.com/datasets/arjunashok33/miniimagenet?resource=download-directory )
 
 
-+ use [split_data.py](split_data.py)  to split th data in train and val and put it in the 
++ use [split_data.py](split_data.py)  to split th data in train and val and put it in the training and validation folder in a folder named ImageNet_2012 
++ 
 + use [pretrain_imagenet.py](pretrain_imagenet.py) for pretraining
 
 
