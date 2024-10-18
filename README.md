@@ -13,7 +13,8 @@ PyTorch implementation of the Magnet Loss, as proposed in the "Metric Learning w
   ```
   python pretrain_imagenet.py
   ```
-+ Alternatively you can download pretrained weights here: https://drive.google.com/file/d/1Q-vCg0PzvF139ONAjERvXy1A_GHqCaTe/view?usp=sharing
++ Alternatively you can download pretrained weights here:
+  https://drive.google.com/file/d/1Q-vCg0PzvF139ONAjERvXy1A_GHqCaTe/view?usp=sharing
 
 2 - Use the pretraind model to train the the CIFAR10 data  with the magnet loss
 
