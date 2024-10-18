@@ -1,8 +1,3 @@
-"""
-    Slightly modified version of the folder.py foud in torch vision
-    New version provides some printout while generating image set and saves that output to avoid re-reading later!
-"""
-
 import torch.utils.data as data
 
 from PIL import Image
