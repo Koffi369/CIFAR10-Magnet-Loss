@@ -11,14 +11,17 @@ PyTorch implementation of the Magnet Loss, as proposed in the "Metric Learning w
   ```
 + use [pretrain_imagenet.py](pretrain_imagenet.py) for pretraining
   ```
-  pretrain_imagenet.py
+  python pretrain_imagenet.py
   ```
 + Alternatively you can download pretrained weights here:
 
 2 - Use the pretraind model to train the the CIFAR10 data  with the magnet loss
 
 + use [train_magnet_new.py](train_magnet_new.py) for training.
-+ You can adjust training parameters such as number of epochs, loss and the magnet loss parameters (K,M,D) in the file when loggong the parameters
+  ```
+  python train_magnet_new.py
+  ```
++ You can adjust training parameters such as number of epochs, loss and the magnet loss parameters (K,M,D) in the file when loggong the parameters or pass then directly with the corresponding flags
 
 
 
