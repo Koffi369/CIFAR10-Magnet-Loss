@@ -19,7 +19,7 @@ PyTorch implementation of the Magnet Loss, as proposed in the "Metric Learning w
 
 + use [train_magnet_new.py](train_magnet_new.py) for training.
   ```
-  python train_magnet_new.py
+  python train_magnet_new.py --experiment_type exp1
   ```
 + You can adjust training parameters such as number of epochs, loss and the magnet loss parameters (K,M,D) in the file when loggong the parameters or pass then directly with the corresponding flags
 
